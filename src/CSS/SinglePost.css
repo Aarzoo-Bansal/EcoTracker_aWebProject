@@ -1,0 +1,151 @@
+.singlepost-container {
+    background-color: rgb(232, 244, 216);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(118, 242, 65, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+    width: 300px;
+    text-align: center;
+    border-color: #00000043;
+    height: auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img-class {
+    height: 200px;
+    width: auto;
+}
+
+/* .singlepost-container:hover {
+    background-color:rgb(211, 239, 174);
+  }
+   */
+.singlepost-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.singlepost-content {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.singlepost-footer {
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.singlepost-author {
+
+    display: inline-block;
+    padding: 10px 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: #1d57b3;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: initial;
+    transition: background-color 0.3s ease;
+}
+
+/* .singlepost-author:hover {
+        background-color: #33B5E5;
+        color: #000000;
+    }
+     */
+
+
+.singlelike-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.singlelike-button:hover {
+    transform: scale(1.1);
+}
+
+.singlelike-button.liked {
+    color: #e0245e;
+}
+
+.single-view-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.singlepost-edit-button {
+    background-color: #5d8029;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.singlepost-edit-button:hover {
+    background-color: #8fe85b;
+    color: #000000;
+}
+
+.singlepost-delete-button {
+    background-color: #d42929;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.singlepost-delete-button:hover {
+    background-color: #e85b5b;
+    color: #000000;
+}
+
+.singlePost-date{
+    text-align: left;
+  font-size: small;
+  font-style: oblique;
+    font-weight: bold;
+}
+
+.like-singlecontainer {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.like-singlecontainer:hover{
+    cursor: pointer;
+}

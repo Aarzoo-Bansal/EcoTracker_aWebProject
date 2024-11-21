@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import '/src/CSS/Login.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { supabase } from '../../Client';
 
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,7 +28,7 @@ function Login() {
             return;
         }else{
             alert('Login successful!');
-            window.location.href = `/home`;
+            window.location.href = '/home';
         }
   };
 
